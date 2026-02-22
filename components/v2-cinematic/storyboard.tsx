@@ -19,7 +19,7 @@ function FilmGrain() {
           animation: "noiseAnimation 0.2s infinite steps(2)",
         }}
       />
-      <style dangerouslySetWidth={{ __html: `
+      <style dangerouslySetInnerHTML={{ __html: `
         @keyframes noiseAnimation {
           0% { transform: translate(0, 0); }
           10% { transform: translate(-5%, -5%); }
